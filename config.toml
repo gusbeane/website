@@ -2,7 +2,7 @@ theme = "coder"
 
 [params]
     author = "Gus Beane"
-    info = "Associate Research Assistant, CCA"
+    info = "Associate Research Assistant, [CCA](https:google.com)"
     avatarurl = "images/face.jpg"
 
 [[params.social]]
