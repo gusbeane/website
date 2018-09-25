@@ -6,3 +6,7 @@ slug = ""
 tags = []
 categories = []
 +++
+
+This is the content of my first *post*
+
+#{{< article  title="My title" image="/images/Q21CIICII_figure4.jpg">}}
