@@ -1,0 +1,65 @@
+baseurl = "http://www.gusbeane.com"
+title = "Gus Beane"
+
+theme = "hugo-coder"
+
+languagecode = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Gus Beane"
+    description = "Gus Beane's website"
+    keywords = "personal,academic,astrophysics,cosmology"
+    info = "Astrophysics and Cosmology"
+    avatarurl = "images/face.jpg"
+    # footercontent = "Enter a text here."
+
+    dateformat = "January 2, 2006"
+
+    hideCredits = false
+    hideCopyright = false
+
+    # Git Commit in Footer, uncomment the line below to enable it.
+    # commit = "https://github.com/luizdepra/hugo-coder/tree/"
+
+    rtl = false
+
+    # Use inverted colors
+    inverted = false
+
+    # Custom CSS
+    custom_css = []
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/gusbeane/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 2
+    url = "https://twitter.com/gusbeane/"
+
+[[menu.main]]
+    name = "Research"
+    weight = 1
+    url  = "/research/"
+
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
+[[menu.main]]
+    name = "Contact"
+    weight = 3
+    url = "/contact/"
+
