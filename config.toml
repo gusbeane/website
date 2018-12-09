@@ -1,4 +1,4 @@
-baseurl = "localhost:1313"
+baseurl = "https://gusbeane.github.io"
 title = "Gus Beane"
 
 theme = "hugo-coder"
