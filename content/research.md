@@ -21,6 +21,8 @@ _with [Melissa K. Ness](http://user.astro.columbia.edu/~mkness/Home.html) (CCA/C
 
 Over time, stellar orbits are expected to become more non-circular and non-planar, described by their orbit's actions. Using two samples of stars with well-determined ages, we quantify the action-age relations. We demonstrate a correlation, but the spread on this relation is too large for actions to be used to infer stellar ages.
 
+_Animated figures are available [here](/suppl-info/2018apj-867-31b)_
+
 _ApJ_<br/>
 arXiv: [1807.05986](https://arxiv.org/abs/1807.05986)<br/>
 ADS: [2018ApJ...867...31B](http://adsabs.harvard.edu/abs/2018ApJ...867...31B)
