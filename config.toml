@@ -33,7 +33,7 @@ pygmentscodefencesguesssyntax = true
     rtl = false
 
     # Use inverted colors
-    inverted = false
+    inverted = false 
 
     # Custom CSS
     custom_css = []
