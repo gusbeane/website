@@ -8,7 +8,7 @@ pdflatex beane_cv.tex
 cd ../../
 
 # Build the project.
-hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo -t hugo-coder # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public
@@ -28,3 +28,8 @@ git push origin master
 
 # Come Back up to the Project Root
 cd ..
+
+# Update website repo
+git add *
+git commit -m "$msg"
+git push origin master
