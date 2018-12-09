@@ -1,0 +1,298 @@
+% this is a LaTeX file
+%----------------------------------------------------------------------
+% name:
+%   hogg_cv.tex
+% purpose:
+%   Hogg's CV and list of publications
+% to-do:
+%   - Convert all \ads{} to \doi{} -- the DOIs should exist now.
+%   - Is the ``what constrains'' paper published anywhere?
+%   - Should I make an \acronym{} macro that uses \small?  I should.
+% comments:
+%   - Don't list full author lists of 10 or more.
+%   - If you want to include/remove the date, see \renewcommand{\today}.
+%   - Swap 1/0 flag to include invited talks.
+%----------------------------------------------------------------------
+
+\documentclass[12pt,letterpaper]{article}
+\usepackage{fancyhdr, afterpage}
+\usepackage{color, hyperref}
+\usepackage{ifthen}
+\usepackage{xcolor}
+
+% put in the date -- or not
+%  \renewcommand{\today}{2018 October 20}
+
+% hypertex insanity
+  %\definecolor{linkcolor}{rgb}{0,0,0.33}
+  \definecolor{linkcolor}{HTML}{0366d6}
+  \definecolor{grey}{rgb}{0.5,0.5,0.5}
+  \hypersetup{
+    colorlinks=true,        % false: boxed links; true: colored links
+    linkcolor=grey,        % color of internal links
+    citecolor=linkcolor,    % color of links to bibliography
+    filecolor=black,        % color of file links
+    urlcolor=linkcolor      % color of external links
+  }
+
+% repeated text formatting
+  \newcommand{\latin}[1]{\textsl{#1}}
+  \newcommand{\etal}{\latin{et~al.}}
+  \newcommand{\satellite}[1]{\textsl{#1}}
+  \newcommand{\project}[1]{\textsl{#1}}
+  \newcommand{\usd}[1]{{#1}\,\textsc{usd}}
+  \newcommand{\eur}[1]{{#1}\,\textsc{eur}}
+  \newcommand{\grantnumber}[2]{{\footnotesize{#1}}; #2,~\textsc{pi}}
+% literature links--use doi if you can
+  \newcommand{\doi}[2]{\href{http://dx.doi.org/#1}{{#2}}}
+  \newcommand{\ads}[2]{\href{http://adsabs.harvard.edu/abs/#1}{{#2}}}
+  \newcommand{\isbn}[1]{{\footnotesize(\textsc{isbn:}{#1})}}
+  \newcommand{\arxiv}[2]{\href{http://arxiv.org/abs/#1}{{#2}\ \textcolor{grey}{(\texttt{arXiv:#1})}}}
+% define de-emphasize commands
+  \newcommand{\deemph}[1]{\textcolor{grey}{\footnotesize{#1}}}
+  \newcommand{\pubnumber}[1]{\deemph{{#1}.}}
+% define heading command SERIOUS HACKING HERE
+  \newcommand{\hoggheading}[1]{\addvspace{1ex}\pagebreak[3]%
+    \par\textbf{#1}\nopagebreak%
+    \afterpage{\markboth{Angus Beane, curriculum vitae continued: \textbf{#1}}{}}%
+    \nopagebreak\\*[0.5ex]\nopagebreak}%
+% custom list characteristics
+  \newcounter{refpubnum}
+  \newcommand{\hogglist}{%
+    \rightmargin=0in
+    \leftmargin=0.18in
+    \topsep=0ex
+    \partopsep=0pt
+    \itemsep=0.2ex
+    \parsep=0pt
+    \itemindent=-1.0\leftmargin
+    \listparindent=0.0\leftmargin
+    \settowidth{\labelsep}{~}
+    \usecounter{refpubnum}
+  }
+  \newcommand{\note}[1]{{\small\par{#1}}}
+% Margins and spaces
+  \raggedright
+  \setlength{\oddsidemargin}{0in}
+  \setlength{\topmargin}{-0.25in}
+  \setlength{\headsep}{0.20in}
+  \setlength{\headheight}{0.25in}
+  \setlength{\textheight}{9.75in}
+%  \addtolength{\textheight}{-\headsep}
+%  \addtolength{\textheight}{-\headheight}
+  \addtolength{\topmargin}{-\headsep}
+  \addtolength{\topmargin}{-\headheight}
+  \setlength{\textwidth}{6.50in}
+  \setlength{\parindent}{0in}
+  \setlength{\parskip}{1ex}
+% Headings and footing
+  \renewcommand{\headrulewidth}{0pt}
+  \pagestyle{fancy}
+  \lhead{\deemph{\leftmark}}
+  \rhead{\deemph{\thepage}}
+  \cfoot{}
+
+\begin{document}\thispagestyle{empty}\sloppy\sloppypar\raggedbottom\frenchspacing
+\setlength{\tabcolsep}{0em}
+\begin{tabular}{lll}
+\textbf{\Large Angus ``Gus'' Beane}               & & \deemph{\today} \\[1ex]
+\texttt{abeane@sas.upenn.edu}             & & \url{http://gusbeane.com}\\[1ex]
+                             & \hspace{6em} & \deemph{also:} \\
+Department of Physics \& Astronomy        & & Center for Computational Astrophysics \\
+University of Pennsylvania                & & Flatiron Institute \\
+209 S 33rd St                             & & 162 Fifth Ave \\
+Philadelphia, PA 19104, USA               & & New York, NY 10010, USA \\[1ex]
+\end{tabular}\vspace{1ex} % HACK
+
+\hoggheading{Education}
+\begin{list}{}{\hogglist}
+\item
+BA/MS (anticipated) 2019, Physics \& Astronomy, University of Pennsylvania.
+\end{list}
+
+\hoggheading{Positions}
+\begin{list}{}{\hogglist}
+%\item
+%\deemph{current:} Undergraduate, University of Pennsylvania, Philadelphia, 2015-- 
+\item
+\deemph{current:} Associate Research Assistant, Flatiron Institute, New York, NY. \deemph{Aug 2018 --}
+\item
+Summer Research Assistant, Flatiron Institute, New York, NY. \deemph{Jun 2018 -- Aug 2018}
+\item
+Teaching Assistant, Department of Mathematics, University~of~Pennsylvania, Philadelphia,~PA. \deemph{Aug~2016~--~Jun~2017}
+\item
+Research Assistant, University~of~Richmond, Richmond,~VA. \deemph{Jun~2014~--~Jun~2017}
+\end{list}
+
+%\hoggheading{Short-term and part-time positions}
+% reverse chronological by END date.
+%\begin{list}{}{\hogglist}
+%\end{list}
+
+%%% \hoggheading{Administrative roles}
+% reverse chronological by END date.
+%%% \begin{list}{}{\hogglist}
+%%% \item
+%%% Executive Director, \project{Moore--Sloan Data Science Environment at \textsc{nyu}}, 2013--2015.
+%%% \item
+%%% Deputy Director, New York University Center for Data Science, 2014--2015.
+%%% \item
+%%% Director of Undergraduate Studies, Department of Physics, New York University, 2008--2015.
+%%% \end{list}
+
+%%% \hoggheading{Service}\nopagebreak\begin{list}{}{\hogglist}
+%%% \item
+%%% \satellite{Spitzer} Science Center Oversight Committee
+%%% (to advise the \satellite{Spitzer Space Telescope} project),
+%%% 2008--present.
+%%% \item
+%%% \project{Sloan Digital Sky Survey \textsc{iv}} Collaboration Council,
+%%% 2013--present.
+%%% \item
+%%% \end{list}
+
+\hoggheading{Honors}
+\begin{list}{}{\hogglist}
+\item
+Barry Goldwater Scholarship, 2018.
+\item
+Phi Beta Kappa, 2018.
+\item
+Roy \& Diana Vagelos Science Challenge Award, 2017--2019.
+\end{list}
+
+%%% \hoggheading{Grants}
+%%% reverse order by expiration date
+%%% \begin{list}{}{\hogglist}
+%%% \item
+%%% \textsc{nsf} Cyberinfrastructure for Emerging Science and Engineering Research Grant
+%%% (\grantnumber{OAC-1841594}{Hogg}),
+%%% \textit{Collaborative Research: Community Planning for Scalable Cyberinfrastructure to Support Multi-Messenger Astrophysics},
+%%% \usd{36,469}, 2018--2019.
+%%% \item
+%%% \textsc{nasa} Astrophysics Data Analysis Grant
+%%% (\grantnumber{number TBD}{Bean}),
+%%% \textit{Improving the sensitivity of radial velocity spectrographs with
+%%% data-driven techniques},
+%%% \usd{308,326}, 2019--2021.
+
+%%% \hoggheading{PhD supervision}
+%%% \begin{list}{}{\hogglist}
+%%% \item
+%%% Morad~Masjedi, 2007, \textit{Massive galaxy merging and cosmogony,}
+%%% PhD thesis, New York University.
+%%% \item
+%%% Dustin~Lang, 2009, \textit{\project{Astrometry.net}:\ Automatic recognition and calibration of astronomical images},
+%%% PhD thesis, University of Toronto (co-supervised by Sam~Roweis at Toronto).
+%%% \item
+%%% Alex~Malz,
+%%% current PhD student, New York University.
+%%% \end{list}
+
+% begin HACK
+% this next line is a clearpage line with heading hack. Feel free to delete it if pagination is okay.
+% \afterpage{\markboth{Angus Beane, curriculum vitae continued: \textbf{\ref{rpcount} Refereed publications}}{}}%
+% \clearpage
+% end HACK
+
+\hypersetup{linkcolor=black}%
+\hoggheading{\ref{rpcount} Refereed publications}%% use \etal when there are >9 authors!
+\hypersetup{linkcolor=grey}%
+\begin{list}{\pubnumber{\therefpubnum}}{\hogglist}
+\item
+{\bf Beane,~A.}, Ness,~M.~K., \& Bedell,~M., 2018,
+\doi{10.3847/1538-4357/aae07f}{Actions Are Weak Stellar Age Indicators in the Milky Way Disk},
+\textit{Astrophys.\,J.}\ \textbf{867} 31.
+\item
+{\bf Beane,~A.} \& Lidz,~A., 2018,
+\doi{10.3847/1538-4357/aae388}{Extracting Bias Using the Cross-bispectrum: An EoR and 21~cm-–[C {\sc II}]–-[C {\sc II}] Case Study},
+\textit{Astrophys.\,J.}\ \textbf{867} 26.
+\item
+{\bf Beane,~A.}, Miller~III,~B., \& Parish, C., 2017,
+\doi{10.1016/j.jmgm.2017.03.012}{Internal abstraction of dynemicin A: An MD approach},
+\textit{J. Mol. Graph. Model.}\ \textbf{74} 251--264.
+\label{rpcount}\end{list}
+
+
+\hypersetup{linkcolor=black}%
+\hoggheading{Publications submitted}%% use \etal when there are >9 authors!
+\hypersetup{linkcolor=grey}%
+\begin{list}{}{\hogglist}
+\item
+{\bf Beane,~A.}, Villaescusa-Navarro,~F., \& Lidz,~A.,
+\arxiv{1811.10609}{Measuring the EoR Power Spectrum Without Measuring the EoR Power Spectrum}
+\end{list}
+
+%% \hypersetup{linkcolor=black}%
+%% \hoggheading{In preparation}%% use \etal when there are >9 authors!
+%% \hypersetup{linkcolor=grey}%
+%% \begin{list}{}{\hogglist}
+%% item
+%% {\bf Beane,~A.}, Sanderson,~R., Mac~Low,~M.-M., Ness,~M.~K., Angl\'es-Alc\'azar,~D., \& Bedell,~M.
+%% \textcolor{grey}{Our Galactocentric Coordinate System is Probably Wrong, and Not by a Little}
+%% \end{list}
+
+
+
+%% \hoggheading{Publications in preparation}%
+%% \nopagebreak\begin{list}{}{\hogglist}
+%% \item
+%% Patel,~E., Mykytyn,~D., Hogg,~D.~W., \& Lang,~D.,
+%% {Colors of angularly large galaxies in the \project{Sloan~Digital~Sky~Survey}}.
+%% \end{list}
+
+%%% \hoggheading{Unrefereed publications}%
+%%% \nopagebreak\begin{list}{}{\hogglist}
+%%% \item
+%%% Hogg,~D.~W., Martin,~F., \& Resnick,~M., 1991,
+%%% {\href{http://cosmo.nyu.edu/hogg/lego/braitenberg_vehicles.pdf}{Braitenberg
+%%%   Creatures}},
+%%% \textit{E\&L Memo 13,} Epistemology and Learning Group,
+%%% MIT Media Laboratory, Cambridge, Massachusetts.
+%%% \item
+%%% Smail,~I., Couch,~W.~J., Ellis,~R.~S., \& Hogg,~D.~W., 1995,
+%%% {Gravitational lensing by the rich cluster AC114},
+%%% \textit{Clusters of
+%%% Galaxies,} eds.\ Durret,~F., Mazure,~A., \& Tran~Thanh~Van,~J.,
+%%% Editions Fronti\`eres, 425.
+%%% \item
+%%% Djorgovski,~S. \etal, 1995,
+%%% {Deep galaxy counts in the $K$ band with
+%%% the Keck Telescope},
+%%% \textit{Examining the Big Bang and Diffuse
+%%% Background Radiation,} ed.\ Kafatos,~M., Kluwer, Dordrecht.
+
+%%% \hoggheading{Code and other non-standard publications}
+%%% \nopagebreak\begin{list}{}{\hogglist}
+%%% \item
+%%% Lang,~D., \etal, 2008,
+%%% {\project{Astrometry.net} codebase}, GPLv2 License,
+%%% used by hundreds of professional and amateur astronomers worldwide
+%%% (\url{http://astrometry.net/}).
+%%% \item
+%%% Bovy,~J., Hogg,~D.~W., \& Roweis,~S., 2009,
+%%% {\project{extreme-deconvolution} codebase}, GPLv2 License,
+%%% (\url{http://code.google.com/p/extreme-deconvolution/}).
+%%% \item
+%%% Foreman-Mackey,~D., Hogg,~D.~W., Lang,~D., \& Goodman,~J., 2012,
+%%% {\project{emcee} codebase}, MIT License,
+%%% (\url{http://danfm.ca/emcee/}).
+%%% \end{list}
+
+%%% \hoggheading{Invited talks}
+%%% \nopagebreak\begin{list}{}{\hogglist}
+%%% \ifthenelse{1=1}{% begin IF
+%%% \item \textit{I only began keeping records in 2001}
+%%% \item American Chemical Society Symposium in honor of Carol Parish,
+%%%           2001~February~26
+%%% \item \textsc{nasa} Goddard Space Flight Center Astrophysics Seminar,
+%%%           2001~March~22
+%%% \item University of California at Santa Cruz and Lick Observatory,
+%%%           Astrophysics Colloquium,
+%%%           2001~March~28
+%%% }{% end IF begin ELSE
+%%%  \item \textit{List available upon request.}
+%%% }% end ELSE
+%%% \end{list}
+
+\end{document}
