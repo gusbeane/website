@@ -1,4 +1,4 @@
-baseurl = "http://www.gusbeane.com"
+baseurl = "localhost:1313"
 title = "Gus Beane"
 
 theme = "hugo-coder"
