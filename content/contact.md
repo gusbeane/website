@@ -3,7 +3,10 @@ title = "Contact"
 slug = "contact"
 +++
 
-[abeane@sas.upenn.edu](mailto:abeane@sas.upenn.edu)
-
-<a href="https://github.com/gusbeane"><i class="fab fa-github"></i></a>
+<script language="JavaScript">
+var username = "abeane";
+var hostname = "sas.upenn.edu";
+var linktext = username + "@" + hostname ;
+document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+</script>
 
