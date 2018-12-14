@@ -47,7 +47,7 @@
   \newcommand{\doi}[2]{\href{http://dx.doi.org/#1}{{#2}}}
   \newcommand{\ads}[2]{\href{http://adsabs.harvard.edu/abs/#1}{{#2}}}
   \newcommand{\isbn}[1]{{\footnotesize(\textsc{isbn:}{#1})}}
-  \newcommand{\arxiv}[2]{\href{http://arxiv.org/abs/#1}{{#2}\ \textcolor{grey}{\texttt{arXiv:#1}}}}
+  \newcommand{\arxiv}[3]{\href{http://arxiv.org/abs/#1}{{#2}, \textcolor{black}{\textit{Submitted to #3}}\ \textcolor{grey}{\texttt{arXiv:#1}}}}
 % define de-emphasize commands
   \newcommand{\deemph}[1]{\textcolor{grey}{\footnotesize{#1}}}
   \newcommand{\pubnumber}[1]{\deemph{{#1}.}}
@@ -97,11 +97,11 @@
 \begin{tabular}{lll}
 \textbf{\Large Angus ``Gus'' Beane}               & & \deemph{\today} \\[1ex]
 \texttt{abeane@sas.upenn.edu}             & & \url{http://gusbeane.com}\\[1ex]
-                             & \hspace{6em} & \deemph{also:} \\
-Department of Physics \& Astronomy        & & Center for Computational Astrophysics \\
-University of Pennsylvania                & & Flatiron Institute \\
-209 S 33rd St                             & & 162 Fifth Ave \\
-Philadelphia, PA 19104, USA               & & New York, NY 10010, USA \\[1ex]
+\deemph{Undergraduate}                             & \hspace{6em} &  \\
+Department of Physics \& Astronomy        & &  \\
+University of Pennsylvania                & &  \\
+209 S 33rd St                             & &  \\
+Philadelphia, PA 19104, USA               & &  \\[1ex]
 \end{tabular}\vspace{1ex} % HACK
 
 \hoggheading{Education}
@@ -115,7 +115,7 @@ BA/MS (anticipated) 2019, Physics \& Astronomy, University of Pennsylvania.
 %\item
 %\deemph{current:} Undergraduate, University of Pennsylvania, Philadelphia, 2015-- 
 \item
-\deemph{current:} Associate Research Assistant, Flatiron Institute, New York, NY. \deemph{Aug 2018 --}
+Associate Research Assistant, Flatiron Institute, New York, NY. \deemph{Aug~2018~--~Dec~2018}
 \item
 Summer Research Assistant, Flatiron Institute, New York, NY. \deemph{Jun 2018 -- Aug 2018}
 \item
@@ -154,11 +154,11 @@ Research Assistant, University~of~Richmond, Richmond,~VA. \deemph{Jun~2014~--~Ju
 \hoggheading{Honors}
 \begin{list}{}{\hogglist}
 \item
-Barry Goldwater Scholarship, 2018.
+Barry Goldwater Scholarship \deemph{2018}
 \item
-Phi Beta Kappa, 2018.
+Phi Beta Kappa \deemph{2018}
 \item
-Roy \& Diana Vagelos Science Challenge Award, 2017--2019.
+Roy \& Diana Vagelos Science Challenge Award \deemph{2017~--~2019}
 \end{list}
 
 %%% \hoggheading{Grants}
@@ -220,14 +220,14 @@ Roy \& Diana Vagelos Science Challenge Award, 2017--2019.
 \begin{list}{}{\hogglist}
 \item
 {\bf Beane,~A.}, Villaescusa-Navarro,~F., \& Lidz,~A.,
-\arxiv{1811.10609}{Measuring the EoR Power Spectrum Without Measuring the EoR Power Spectrum}
+\arxiv{1811.10609}{Measuring the EoR Power Spectrum Without Measuring the EoR Power Spectrum}{Astrophys.\,J.}
 \end{list}
 
 %% \hypersetup{linkcolor=black}%
 %% \hoggheading{In preparation}%% use \etal when there are >9 authors!
 %% \hypersetup{linkcolor=grey}%
 %% \begin{list}{}{\hogglist}
-%% item
+%% \item
 %% {\bf Beane,~A.}, Sanderson,~R., Mac~Low,~M.-M., Ness,~M.~K., Angl\'es-Alc\'azar,~D., \& Bedell,~M.
 %% \textcolor{grey}{Our Galactocentric Coordinate System is Probably Wrong, and Not by a Little}
 %% \end{list}
