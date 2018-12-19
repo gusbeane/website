@@ -2,6 +2,11 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+# pull any necessary changes
+cd public
+git pull
+cd ../
+
 # Buld CV
 cd static/cv
 pdflatex beane_cv.tex
