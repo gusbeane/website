@@ -10,7 +10,7 @@ _with [Francisco Villaescusa-Navarro](https://franciscovillaescusa.github.io) (C
 
 Cleaning foregrounds from future EoR surveys may imprint artificial bias in the measured 21&nbsp;cm power spectrum. Cross-spectra can be measured much more robustly in the presence of foregrounds. We show that if two line-intensity mapping surveys overlap with a 21&nbsp;cm survey, then the 21&nbsp;cm power spectra can be measured on large scales using only the cross-spectra between these fields.
 
-_Submitted to ApJ_<br/>
+_Submitted to Astrophys. J._<br/>
 arXiv: [1811.10609](https://arxiv.org/abs/1811.10609)<br/>
 ADS: [2018arXiv181110609B](http://adsabs.harvard.edu/abs/2018arXiv181110609B)
 
@@ -23,7 +23,7 @@ Over time, stellar orbits are expected to become more non-circular and non-plana
 
 _Animated figures are available [here](/suppl-info/2018apj-867-31b)_
 
-_ApJ_<br/>
+_Astrophys. J._<br/>
 arXiv: [1807.05986](https://arxiv.org/abs/1807.05986)<br/>
 ADS: [2018ApJ...867...31B](http://adsabs.harvard.edu/abs/2018ApJ...867...31B)
 
@@ -34,7 +34,7 @@ _with [Adam Lidz](https://www.physics.upenn.edu/people/standing-faculty/adam-lid
 
 The main obstacle to 21&nbsp;cm observation of the Epoch of Reionization are large foregrounds. One proposed cross-check is to cross-correlate 21&nbsp;cm observations from z~6-9 with intensity mapping surveys of, e.g., the [CII] line at the same redshifts. The downside of this approach is that you have to know about the evolution in the [CII] line in order to extract information about the EoR. We propose a similar cross-check that avoids this problem.
 
-_ApJ_<br/>
+_Astrophys. J._<br/>
 arXiv: [1806.02796](https://arxiv.org/abs/1806.02796)<br/>
 ADS: [2018ApJ...867...26B](http://adsabs.harvard.edu/abs/2018ApJ...867...26B)
 
