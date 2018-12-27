@@ -2,6 +2,7 @@ baseurl = "https://gusbeane.github.io"
 title = "Gus Beane"
 
 theme = "hugo-coder"
+googleAnalytics = "UA-131443520-1"
 
 languagecode = "en"
 
