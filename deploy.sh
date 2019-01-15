@@ -9,7 +9,12 @@ cd ../
 
 # Buld CV
 cd static/cv
-pdflatex beane_cv.tex
+tectonic beane_cv.tex
+cd ../../
+
+# Buld secret CV
+cd static/secret_cv
+tectonic beane_cv.tex
 cd ../../
 
 # Build the project.
