@@ -13,7 +13,7 @@ tectonic beane_cv.tex
 cd ../../
 
 # Buld secret CV
-cd static/secret_cv
+cd static/secret-cv
 tectonic beane_cv.tex
 cd ../../
 
