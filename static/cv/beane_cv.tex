@@ -48,6 +48,7 @@
   \newcommand{\ads}[2]{\href{http://adsabs.harvard.edu/abs/#1}{{#2}}}
   \newcommand{\isbn}[1]{{\footnotesize(\textsc{isbn:}{#1})}}
   \newcommand{\arxiv}[3]{\href{http://arxiv.org/abs/#1}{{#2}, \textcolor{black}{\textit{Submitted to #3}}\ \textcolor{grey}{\texttt{arXiv:#1}}}}
+  \newcommand{\arxivaccept}[3]{\href{http://arxiv.org/abs/#1}{{#2}, \textcolor{black}{\textit{Accepted in #3}}\ \textcolor{grey}{\texttt{arXiv:#1}}}}
 % define de-emphasize commands
   \newcommand{\deemph}[1]{\textcolor{grey}{\footnotesize{#1}}}
   \newcommand{\pubnumber}[1]{\deemph{{#1}.}}
@@ -200,6 +201,9 @@ Roy \& Diana Vagelos Science Challenge Award. \deemph{2017~--~2019}
 \hypersetup{linkcolor=grey}%
 \begin{list}{\pubnumber{\therefpubnum}}{\hogglist}
 \item
+{\bf Beane,~A.}, Villaescusa-Navarro,~F., \& Lidz,~A.,
+\arxivaccept{1811.10609}{Measuring the EoR Power Spectrum Without Measuring the EoR Power Spectrum}{Astrophys.\,J.}
+\item
 {\bf Beane,~A.}, Ness,~M.~K., \& Bedell,~M., 2018,
 \doi{10.3847/1538-4357/aae07f}{Actions Are Weak Stellar Age Indicators in the Milky Way Disk},
 \textit{Astrophys.\,J.}\ \textbf{867} 31.
@@ -214,14 +218,14 @@ Roy \& Diana Vagelos Science Challenge Award. \deemph{2017~--~2019}
 \label{rpcount}\end{list}
 
 
-\hypersetup{linkcolor=black}%
-\hoggheading{Publications submitted}%% use \etal when there are >9 authors!
-\hypersetup{linkcolor=grey}%
-\begin{list}{}{\hogglist}
-\item
-{\bf Beane,~A.}, Villaescusa-Navarro,~F., \& Lidz,~A.,
-\arxiv{1811.10609}{Measuring the EoR Power Spectrum Without Measuring the EoR Power Spectrum}{Astrophys.\,J.}
-\end{list}
+% \hypersetup{linkcolor=black}%
+% \hoggheading{Publications submitted}%% use \etal when there are >9 authors!
+% \hypersetup{linkcolor=grey}%
+% \begin{list}{}{\hogglist}
+% \item
+% {\bf Beane,~A.}, Villaescusa-Navarro,~F., \& Lidz,~A.,
+% \arxiv{1811.10609}{Measuring the EoR Power Spectrum Without Measuring the EoR Power Spectrum}{Astrophys.\,J.}
+% \end{list}
 
 % \hypersetup{linkcolor=black}%
 % \hoggheading{Invited talks}%% use \etal when there are >9 authors!
@@ -235,8 +239,8 @@ Roy \& Diana Vagelos Science Challenge Award. \deemph{2017~--~2019}
 \hoggheading{Contributed talks}%% use \etal when there are >9 authors!
 \hypersetup{linkcolor=grey}%
 \begin{list}{}{\hogglist}
-% \item
-% CCA Intensity Mapping Workshop, New York, NY. \deemph{Feb~2019}
+\item
+CCA Intensity Mapping Workshop, New York, NY. \deemph{Feb~2019}
 \item
 AAS 233rd Meeting, Seattle, WA. \deemph{Jan~2019}
 \end{list}
