@@ -10,7 +10,7 @@ _with [Francisco Villaescusa-Navarro](https://franciscovillaescusa.github.io) (C
 
 Cleaning foregrounds from future EoR surveys may imprint artificial bias in the measured 21&nbsp;cm power spectrum. Cross-spectra can be measured much more robustly in the presence of foregrounds. We show that if two line-intensity mapping surveys overlap with a 21&nbsp;cm survey, then the 21&nbsp;cm power spectra can be measured on large scales using only the cross-spectra between these fields.
 
-_Submitted to Astrophys. J._<br/>
+_Accepted in Astrophys. J._<br/>
 arXiv: [1811.10609](https://arxiv.org/abs/1811.10609)<br/>
 ADS: [2018arXiv181110609B](http://adsabs.harvard.edu/abs/2018arXiv181110609B)
 
