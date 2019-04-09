@@ -43,7 +43,7 @@ _with [Bill Miller III](https://www.truman.edu/faculty-staff/brmiller/) (Truman 
 
 {{< figure src="images/Beane_JMolGraphModel.png" class="rightalign" width="325" >}}
 
-Dynemicin A is an anti-tumor drug which kills cancerous cells by binding to and cutting DNA. It is thought to work by inserting into the minor groove of DNA and then undergoing a cyclization process before abstracting a hydrogen atom from the DNA backbone. Intercalation, or inserting between two base pairs as opposed to in the minor groove, is thought to stop the activity of dynemicin A. We provide evidence that dynemicin A may abstract a hydrogen atom from itself first and then subsequently abstract a hydrogen atom from the DNA backbone.
+Dynemicin A is an anti-tumor drug which kills cancerous cells by binding to and cutting DNA. It is thought to work by inserting into the minor groove of DNA and then undergoing a cyclization process before abstracting a hydrogen atom from the DNA backbone. Intercalation, or inserting between two base pairs as opposed to in the minor groove, is thought to stop the activity of dynemicin A. We provide evidence that dynemicin A may abstract a hydrogen atom from itself first and then subsequently abstract a hydrogen atom from the DNA backbone even in the intercalated state.
 
 _J. Mol. Graph. Model._<br/>
 doi: [10.1016/j.jmgm.2017.03.012](https://doi.org/10.1016/j.jmgm.2017.03.012)
