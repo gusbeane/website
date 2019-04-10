@@ -3,6 +3,8 @@ title = "Research"
 slug = "research"
 +++
 
+A full list of publications can be found on [ADS](https://ui.adsabs.harvard.edu/public-libraries/GEWUhdI1TECDgsTvTtkv7A) or my [CV](/cv/beane_cv.pdf).
+
 ## Measuring the EoR Power Spectrum Without Measuring the EoR Power Spectrum
 _with [Francisco Villaescusa-Navarro](https://franciscovillaescusa.github.io) (CCA) and [Adam Lidz](https://www.physics.upenn.edu/people/standing-faculty/adam-lidz) (UPenn)_
 
