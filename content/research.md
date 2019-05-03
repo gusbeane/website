@@ -29,12 +29,12 @@ _Astrophys. J._<br/>
 arXiv: [1807.05986](https://arxiv.org/abs/1807.05986)<br/>
 ADS: [2018ApJ...867...31B](http://adsabs.harvard.edu/abs/2018ApJ...867...31B)
 
-## Extracting Bias Using the Cross-bispectrum: An EoR and 21&nbsp;cm–[C&nbsp;II]–[C&nbsp;II] Case Study
+## Extracting Bias Using the Cross-bispectrum: An EoR and 21&nbsp;cm–[C&nbsp;ɪɪ]–[C&nbsp;ɪɪ] Case Study
 _with [Adam Lidz](https://www.physics.upenn.edu/people/standing-faculty/adam-lidz) (UPenn)_
 
 {{< figure src="images/2018ApJ...867...26B.jpg" class="rightalign" width="325" >}}
 
-The main obstacle to 21&nbsp;cm observation of the Epoch of Reionization are large foregrounds. One proposed cross-check is to cross-correlate 21&nbsp;cm observations from z~6-9 with intensity mapping surveys of, e.g., the [CII] line at the same redshifts. The downside of this approach is that you have to know about the evolution in the [CII] line in order to extract information about the EoR. We propose a similar cross-check that avoids this problem.
+The main obstacle to 21&nbsp;cm observation of the Epoch of Reionization are large foregrounds. One proposed cross-check is to cross-correlate 21&nbsp;cm observations from z~6-9 with intensity mapping surveys of, e.g., the [C&nbsp;ɪɪ] line at the same redshifts. The downside of this approach is that you have to know about the evolution in the [C&nbsp;ɪɪ] line in order to extract information about the EoR. We propose a similar cross-check that avoids this problem.
 
 _Astrophys. J._<br/>
 arXiv: [1806.02796](https://arxiv.org/abs/1806.02796)<br/>
