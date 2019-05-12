@@ -1,6 +1,7 @@
 +++
 title = "About"
 slug = "about"
+
 +++
 
 I am a senior undergraduate at the University of Pennsylvania. I study physics with a focus on astrophysics and cosmology. I will be starting as a graduate student in Astronomy at Harvard University this fall.
