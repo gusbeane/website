@@ -5,7 +5,7 @@ slug = "research"
 
 A full list of publications can be found on [ADS][1] or my [CV][2].
 
-I am broadly interested in the interpretation of complicated datasets, particularly in the role and fidelity of numerical simulations in the pursuit of that goal. In the near-term, this means laying down a path to understanding the current and imminent surveys of the Milky Way. In the long-term, this will lead me to the elusive Epoch of Reionization.
+I am broadly interested in the interpretation of complicated datasets, particularly in the role and fidelity of numerical simulations in the pursuit of that goal. In the near-term, this means understanding the current and imminent surveys of the Milky Way. In the long-term, this will hopefully lead me to study the Epoch of Reionization.
 
 ## The Milky Way
 
