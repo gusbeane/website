@@ -3,6 +3,8 @@ title = "Contact"
 slug = "contact"
 +++
 
+angus.beane@cfa.harvard.edu
+
 <script language="JavaScript">
 var username = "angus.beane";
 var hostname = "cfa.harvard.edu";
