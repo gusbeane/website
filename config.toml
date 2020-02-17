@@ -64,6 +64,10 @@ pygmentscodefencesguesssyntax = true
     weight = 3
     url = "/contact/"
 [[menu.main]]
-    name= "CV"
+    name = "Slides"
     weight = 4
+    url = "/slides/"
+[[menu.main]]
+    name= "CV"
+    weight = 5
     url = "/cv/beane_cv.pdf"
