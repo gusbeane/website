@@ -13,9 +13,9 @@ tectonic beane_cv.tex
 cd ../../
 
 # Buld secret CV
- cd static/secret-cv
- tectonic beane_cv.tex
- cd ../../
+# cd static/secret-cv
+# tectonic beane_cv.tex
+# cd ../../
 
 # Build the project.
 hugo -t hugo-coder # if using a theme, replace with `hugo -t <YOURTHEME>`
