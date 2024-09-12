@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gus Beane</title>
+    <link>https://gusbeane.github.io/</link>
+    <description>Recent content on Gus Beane</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://gusbeane.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://gusbeane.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://gusbeane.github.io/about/</guid>
+      <description>&lt;p&gt;I am a sixth-year graduate student in astronomy at Harvard University.&lt;/p&gt;&#xA;&lt;p&gt;I am primarily interested in the formation and evolution of the Milky Way. I use idealized simulations to study specific questions about the Milky Way. I have shown with a simulation of a Milky Way-like barred galaxy that the braking interaction between the bar and the dark matter halo &lt;a href=&#34;https://ui.adsabs.harvard.edu/abs/2023ApJ...953..173B/abstract&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;could be arrested by the Milky Way&amp;rsquo;s gas phase&lt;/a&gt;, explaining how it is both old and fast.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://gusbeane.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://gusbeane.github.io/contact/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;mailto:angus.beane@cfa.harvard.edu&#34; &gt;angus.beane@cfa.harvard.edu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>Slides</title>
+      <link>https://gusbeane.github.io/slides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://gusbeane.github.io/slides/</guid>
+      <description>&lt;h2 id=&#34;dynamically-dating-stars&#34;&gt;&#xA;  Dynamically Dating Stars&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#dynamically-dating-stars&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Oct 19, 2020: &lt;a href=&#34;https://drive.google.com/drive/folders/1lpNMTpR7OOjsIKUS5T8h-el6BDCyp7ix&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT Lunch Talk&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Feb 17, 2020: &lt;a href=&#34;https://drive.google.com/drive/folders/1HcCFt3MtV1Zuv4nUmwrAeYiJEj3g8JCV?usp=sharing&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UW-Madison Lunch Talk&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Based on &lt;a href=&#34;https://arxiv.org/abs/1807.05986&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Actions Are Weak Stellar Age Indicators in the Milky Way Disk&lt;/a&gt; and &lt;a href=&#34;https://arxiv.org/abs/2005.09387&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Exploring the evolution of stellar rotation using Galactic kinematics&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
